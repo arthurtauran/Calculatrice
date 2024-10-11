@@ -64,8 +64,8 @@ public class CalculatorModel {
                 resultat = nombre1 * nombre2;
                 break;
             case '/':
-                if (nombre2 == 0) {
-                    error = "Division par zéro impossible";
+                if(nombre2==0){
+                    throw new ArithmeticException();
                 }
                 resultat = nombre1 / nombre2;
                 break;
