@@ -77,6 +77,7 @@ public class CalculatorModel {
                 break;
         }
         nombre1 = resultat;
+        System.out.println(nombre1);
     }
 
     public int virgul() {

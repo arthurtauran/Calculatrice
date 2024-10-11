@@ -1,5 +1,7 @@
 package view;
 
+import controller.CalculatorController;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -85,5 +87,11 @@ public class CalculatorView {
         equalsButton.addActionListener(listener);
         pointButton.addActionListener(listener);
         clearButton.addActionListener(listener);
+    }
+
+    public void addEventHandler(CalculatorController.ButtonClickHandler buttonClickHandler) {
+
+
+
     }
 }
