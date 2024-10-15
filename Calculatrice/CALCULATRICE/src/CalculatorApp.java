@@ -1,11 +1,11 @@
-import model.CalculatorModel;
-import view.CalculatorView;
-import controller.CalculatorController;
+import model.CalculatriceModel;
+import view.CalculatriceView;
+import controller.CalculatriceController;
 
 public class CalculatorApp {
     public static void main(String[] args) {
-        CalculatorModel model = new CalculatorModel();
-        CalculatorView view = new CalculatorView();
-        CalculatorController controller = new CalculatorController(model, view);
+        CalculatriceModel model = new CalculatriceModel();
+        CalculatriceView view = new CalculatriceView();
+        CalculatriceController controller = new CalculatriceController(model, view);
     }
 }
